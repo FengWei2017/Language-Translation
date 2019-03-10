@@ -1,0 +1,26 @@
+Name: Feng Wei
+
+Course no: CpSc 8270
+
+Clemson Email Address: wei8@g.clemson.edu
+
+Project no: 2
+
+Project due date: September 21st
+
+Project description: Write a translator for leet and English.
+
+
+What I have done to augment the leet obfuscation is:
+
+*Use Greek and Cyrillic characters to make the translation more beautiful.
+
+*I use file Romeo as test case,Romeo_leet is the etol out put, Romeo_English is the ltoe out put.
+
+*And run $ diff Romeo Romeo_English to  check if there any difference between them.
+
+*To simpfy this asg, you can just run my.sh to get the results.
+
+The easiest part of this project: I don't need to write a lot of code
+
+Problems that I had in completing this project: Solve the duplicities and ambiguities

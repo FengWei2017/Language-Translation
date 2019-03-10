@@ -1,0 +1,45 @@
+Name: Feng Wei
+
+Course no: CpSc 8270
+
+Clemson Email Address: wei8@g.clemson.edu
+
+Project no: 6
+
+Project due date: 12/12/2018
+
+Project description: Parameters, recursion, python functions, scope, return value, relationnal operations, if/elif/else 
+
+The easiest part of this project, including what language
+construct was the easiest to implement: Based on project 5 to translate parameters is not so difficult.
+
+Problems that I had in completing this project:
+It's difficult to do recurrsion .  
+
+
+I could also do Default parameters in this project.
+
+**********************************
+                    |            |          
+**********************************
+Formal   parameters |  def f(x): |          
+
+Actual   parameters |  f(5)      |          
+
+Complex  parameters |  f(5*x)    |          
+  
+Function parameters |  f(g(x))   |  
+
+Multiple parameters |  f(x,y)    |
+
+Default  parameters |  def f(x,y=0)     call  f(1)          
+
+Recurrsion          |  factorial |         
+
+Return statement    |  X         |
+
+IF/ELIF/ELSE        |  X         |
+**********************************
+
+
+

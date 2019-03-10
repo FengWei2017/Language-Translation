@@ -1,0 +1,33 @@
+Name: Feng Wei
+
+Course no: CpSc 8270
+
+Clemson Email Address: wei8@g.clemson.edu
+
+Project no: 4
+
+Project due date: 11/16/2018
+
+Project description: Design and implement an Abstract Syntax Tree (AST) to represent and interpret your Python code.
+
+The easiest part of this project, including what language
+construct was the easiest to implement: The basic operations for int and float are quite easy, such as + - */ . And % and // ** are a little bit difficult. 
+
+Problems that I had in completing this project, including what
+Python language construct caused the most difficultyi: The most difficult challenge in this projct is to slice strings. And there are also some interesti points about the value of index when slicing. Such as str[-1], and str[2,-1].
+
+In general my solution could handle all the required operations for float and int. And for string, my solution could handle int*string  string*int string+string assign and slicing.
+
+******************************************************************************************
+          | + | - | * | / | % | // | ** | = | += | -= | *= | /= | %= | //= | () |  Slice |
+******************************************************************************************
+FLOAT       X   X   X   X   X   X     X   X    X    X   X     X    X    X    X
+
+INT         X   X   X   X   X   X     X   X    X    X   X     X    X    X    X
+
+STRING      X       X                     X    X                                    X 
+
+*******************************************************************************************
+
+
+

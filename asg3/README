@@ -1,0 +1,36 @@
+Name: Feng Wei
+
+Course no: CpSc 8270
+
+Clemson Email Address: wei8@g.clemson.edu
+
+Project no: 3
+
+Project due date: Oct. 19
+
+Project description: Compute python files complexity
+
+What I have accomplished to implement McCabe's Cyclomatic Complexity
+Metric, including using the radon oracle:  
+
+I test my program with the testcases which I downloaded from Internet, 
+I can pass 75 in all 107. 
+And if I run it with Python-2.7.2/Lib, the result is 31 passed and 173 failed.
+Something I found interedting about Radon:
+************************************************************************************
+1. Radon's output is empty when the file's complexity is 0(such as 'hello world'); 
+2. If a class a method and a function(not method function) have the same 
+complexity. Radon sort them in this priority Class->Method(this class's)
+and Fuction->Method, Fuction and Class has the same priority by my experience.
+3. Radon use different Charaters to output the complexity, if the complexity is 
+1-5 Radon uses A for 6-10 B and larger than 10 radon uses C. 
+*************************************************************************************
+
+The easiest part of this project, including what language
+construct was the easiest to implement:  
+The easiest part is to construct the form of the output, it's not difficult.
+
+Problems that I had in completing this project, including what
+Python language construct caused the most difficulty:  The hardest part of this program is to compute the complexity of class, it's really puzzling. Another difficult thing is to construct the grammar tree, I am not sure what statemets are the terminals, that relly anoying.
+
+
